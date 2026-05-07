@@ -18,7 +18,7 @@ async function init() {
       const images = imageArray
         .filter((image) => image.category === category)
         .map((image) => {
-          return `<img src="https://api.cutebear.in.th${
+          return `<img src="https://cdn.cutebear.in.th${
             image.path
           }" class="icon" alt="${image.name}" title="${formatSnakeToTitleCase(
             image.name
